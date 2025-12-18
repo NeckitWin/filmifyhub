@@ -12,7 +12,7 @@ const Header = () => {
     return (
         <header className="w-full flex items-center justify-between p-3 border-b border-border">
             <div className="flex gap-4 items-center">
-                <h1 className="text-2xl font-semibold">FilmifyHub</h1>
+                <h1 className="text-2xl font-bold">FilmifyHub</h1>
                 <Input placeholder="Search..." className="w-sm" />
             </div>
 
