@@ -31,8 +31,10 @@ const Header = () => {
                     }
                 </div>
 
-                <Button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
+                <Button className="group cursor-pointer" onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
+                    <div className="group-active:rotate-180 duration-200">
                     {theme === "light" ? <MoonIcon /> : <SunIcon />}
+                    </div>
                 </Button>
                 <div className="flex gap-4 items-center">
                     <Button size="lg" variant="ghost">Sign In</Button>
